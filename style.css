@@ -147,6 +147,7 @@
     line-height: 70px;
     color:rgb(238, 229, 229);
     overflow-wrap: break-word;
+    font-size: 35px;
 }
 .contact-us a{
     text-decoration:none;
@@ -163,8 +164,8 @@
     cursor:pointer;
     font-weight: 500px;
 }
-.contact-us img{
-    width:90%;
-    max-width: 40px;
+.contact-us ul li i{
+    font-size: 50px;
+    color:rgb(229, 236, 241);
     /* background-color:rgb(223, 204, 204); */
 }
