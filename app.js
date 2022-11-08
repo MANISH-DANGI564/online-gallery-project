@@ -55,11 +55,24 @@ $(document).ready(function(){
     });
  
 });
+var aboutusid=document.getElementById("aboutusid");
 var contactusid=document.getElementById("contactusid");
 var gallery = document.getElementById("galleryid");
+function openaboutus(){
+    closecontactus();
+    aboutusid.style.display="flex";
+    gallery.style.opacity=0.2;
+}
+function closeaboutus(){
+    aboutusid.style.display="none";
+    gallery.style.opacity=1.0;
+}
+
 function opencontactus(){
+    closeaboutus();
     contactusid.style.display="flex";
     gallery.style.opacity=0.2;
+    
 
 }
 function closecontactus(){
