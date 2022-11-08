@@ -42,8 +42,8 @@ $(document).ready(function(){
                 $('.image').show(400);
             }
             else{
-                $('.image').not('.'+filter).hide(200);
-                $('.image').filter('.'+filter).show(200);
+                $('.image').not('.'+filter).hide(100);
+                $('.image').filter('.'+filter).show(100);
             }
     });
     $('.gallery').magnificPopup({
@@ -52,19 +52,8 @@ $(document).ready(function(){
         gallery:{
                 enabled:true
         },
-        // callbacks: {
-        //     imageLoadComplete:changeImgSize,
-        //     change:changeImgSize,
-        //     resize: changeImgSize
-        // }
     });
-    // function changeImgSize(){
-    //     var img = this.content.find('img');
-    //     img.css('max-height', '300%');
-    //     img.css('width', '300%');
-    //     img.css('max-width', '300%');
-    //     img.css('origin', 'center');
-    // }
+ 
 });
 var contactusid=document.getElementById("contactusid");
 var gallery = document.getElementById("galleryid");
