@@ -208,3 +208,23 @@
     font-size: 35px;
   
 }
+.navbar-clickables{
+    font-size: 30px;
+    color: black;
+    transition: color 0.4s;
+    line-height: 25px;
+    margin-left: 15px;
+}
+.navbar-clickables:hover{
+    background-color: #6F4FC6;
+    color: orange;
+    border-radius: 9px;
+    font-size: 32px;
+    padding: 10px;
+}
+.navtati{
+    background-color: #DECFC8;
+}
+.navbar-toggler-icon{
+    color: black;
+}
